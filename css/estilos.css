@@ -1,2 +1,598 @@
-h1 {
-  color: 0; }
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: black;
+  height: 20vh;
+  justify-content: space-around;
+  align-items: center; }
+  .header .headerUno {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center; }
+    .header .headerUno div i {
+      color: white;
+      font-size: 30px;
+      margin: 10px;
+      align-items: center;
+      text-align: center;
+      padding: 0 0 50px 0;
+      width: 30px;
+      height: 20px;
+      color: #F5BA3A; }
+    .header .headerUno div p {
+      color: white;
+      font-size: 20px; }
+    .header .headerUno div p {
+      color: white;
+      font-size: 20px; }
+      .header .headerUno div p span {
+        color: #F5BA3A; }
+  .header .headerImg a img {
+    width: 150px;
+    height: 150px;
+    border: solid 1px #F5BA3A; }
+  .header .headerDos {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center; }
+    .header .headerDos i {
+      color: white;
+      font-size: 30px;
+      margin: 10px;
+      align-items: center;
+      text-align: center;
+      padding: 0 0 50px 0;
+      width: 30px;
+      height: 20px;
+      color: #F5BA3A; }
+    .header .headerDos p {
+      color: white;
+      font-size: 20px; }
+
+.navBar {
+  background-color: #F5BA3A;
+  height: 5vh;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid black; }
+  .navBar div a {
+    color: #F5BA3A;
+    text-decoration: none;
+    border-radius: 2.3em;
+    margin: 100px auto;
+    padding: 10px 50px 10px 50px;
+    background-color: black;
+    font-size: 20px;
+    border: 1px solid #F5BA3A; }
+    .navBar div a:hover {
+      color: aliceblue;
+      transition: 0.5s; }
+
+footer {
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap; }
+  footer .foot {
+    border-top: 1px solid #F5BA3A;
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0; }
+    footer .foot div h2 {
+      color: #F5BA3A;
+      margin: 20px auto 20px; }
+    footer .foot div h3 {
+      color: white;
+      font-size: 20px; }
+    footer .foot div img {
+      width: 200px; }
+    footer .foot div h2 {
+      color: #F5BA3A;
+      margin: 20px auto 20px; }
+    footer .foot div a {
+      color: white;
+      font-size: 30px;
+      padding: 15px; }
+      footer .foot div a:hover {
+        color: #F5BA3A; }
+  footer .footr {
+    background-color: #F5BA3A;
+    height: 3vh;
+    margin: 0;
+    width: 100%; }
+    footer .footr h3 {
+      font-size: 20px; }
+
+main .hero {
+  background-image: url("../img/banner1.jpg");
+  text-align: center;
+  width: 100%;
+  height: 75vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  background-size: cover;
+  background-attachment: fixed; }
+  main .hero div h1 {
+    font-size: 60px;
+    color: #F5BA3A;
+    background-color: black;
+    width: 55%;
+    height: 100px;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+    border: solid 1px #F5BA3A; }
+  main .hero div h3 {
+    font-size: 50px;
+    color: black white;
+    background-color: #F5BA3A;
+    width: 30%;
+    height: 100px;
+    margin: 0 auto;
+    margin: 0px auto 50px auto;
+    padding: 10px 0 0 0;
+    border-radius: 0 0 25% 25%; }
+  main .hero div a {
+    color: #F5BA3A;
+    text-decoration: none;
+    border-radius: 2.3em;
+    margin: 100px auto;
+    padding: 10px 50px 10px 50px;
+    background-color: black;
+    font-size: 20px;
+    border: 1px solid #F5BA3A; }
+    main .hero div a:hover {
+      transition: 0.5s;
+      color: white; }
+
+main .bienvenida {
+  background-color: black;
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px #F5BA3A; }
+  main .bienvenida div h2 {
+    color: white;
+    font-size: 50px;
+    height: 40%;
+    margin: 0 auto 40px; }
+  main .bienvenida div h3 {
+    color: #F5BA3A;
+    margin: 0 auto 10px; }
+  main .bienvenida div h4 {
+    color: aliceblue;
+    margin: 0 auto 50px auto; }
+    main .bienvenida div h4 span {
+      color: #F5BA3A; }
+  main .bienvenida div a {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    border-radius: 2.3em;
+    margin: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: #F5BA3A; }
+    main .bienvenida div a:hover {
+      color: white;
+      transition: 0.8s; }
+
+main .servicios {
+  background-image: url("../img/fondo.jpg");
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  height: 70vh; }
+  main .servicios .serviciosUno h2 {
+    font-size: 40px;
+    width: 20%;
+    height: 60px;
+    margin: 0 auto 40px auto;
+    background-color: black;
+    color: #F5BA3A;
+    border: solid 1px #F5BA3A;
+    text-align: center;
+    border-radius: 1%; }
+  main .servicios .serviciosDos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly; }
+    main .servicios .serviciosDos div {
+      width: 30%;
+      height: 100%;
+      padding: 50px 0 0 0;
+      border: 5px solid black;
+      border-radius: 0 0 25% 25%; }
+      main .servicios .serviciosDos div:hover {
+        border-radius: 0 0 25% 25%;
+        text-decoration: black #F5BA3A; }
+      main .servicios .serviciosDos div h3 {
+        font-size: 40px;
+        margin: 0px auto 30px auto;
+        background-color: black;
+        color: #F5BA3A;
+        width: 101%; }
+      main .servicios .serviciosDos div img {
+        width: 200px; }
+
+main .titu {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background-image: url(../img/menu1.jpg);
+  text-align: center; }
+  main .titu h1 {
+    color: white;
+    font-size: 80px;
+    background-color: black;
+    width: 40%;
+    border-radius: 0 0 25% 25%; }
+
+main .pizzas {
+  background-color: black;
+  height: 230vh;
+  border: solid 2px; }
+  main .pizzas .pizzasTitulo {
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+    width: 20%;
+    border-radius: 0 0 25% 25%; }
+    main .pizzas .pizzasTitulo h2 {
+      font-size: 60px;
+      color: #F5BA3A; }
+      main .pizzas .pizzasTitulo h2 i {
+        font-size: 40px;
+        margin: 20px;
+        color: #F5BA3A; }
+  main .pizzas .pizzzz {
+    height: 100%; }
+    main .pizzas .pizzzz .pizzz {
+      border: 1px solid #F5BA3A;
+      width: 60%;
+      margin: 10px auto;
+      display: flex;
+      flex-flow: row wrap;
+      background-color: black; }
+      main .pizzas .pizzzz .pizzz div img {
+        width: 300px;
+        height: 170px;
+        margin: 0 20px 0 0; }
+      main .pizzas .pizzzz .pizzz div h2 {
+        font-size: 40px;
+        margin: 0 0 20px;
+        color: white; }
+        main .pizzas .pizzzz .pizzz div h2:hover {
+          text-decoration: underline white; }
+      main .pizzas .pizzzz .pizzz div p {
+        color: white; }
+      main .pizzas .pizzzz .pizzz div span {
+        color: #F5BA3A; }
+
+main .nosotrosTitulo {
+  background-image: url(../img/hero.webp);
+  height: 40vh;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+  main .nosotrosTitulo div h2 {
+    font-size: 70px;
+    margin: 0 auto 20px auto;
+    background-color: black;
+    width: 130%;
+    color: #F5BA3A;
+    border: 1px solid #F5BA3A; }
+  main .nosotrosTitulo div h3 {
+    background-color: black;
+    width: 130%;
+    color: #F5BA3A;
+    border: 1px solid #F5BA3A; }
+
+main .nosotrosPrimera {
+  text-align: center;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin: 50px auto; }
+  main .nosotrosPrimera div img {
+    height: 600px;
+    margin: 0 50px auto; }
+  main .nosotrosPrimera .nosotrosTxt {
+    width: 40%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center; }
+    main .nosotrosPrimera .nosotrosTxt h3 {
+      font-size: 30px; }
+    main .nosotrosPrimera .nosotrosTxt p {
+      text-align: center; }
+
+main .chefs {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center; }
+  main .chefs .chefsTitulo h2 {
+    font-size: 60px;
+    text-decoration: underline; }
+    main .chefs .chefsTitulo h2 i {
+      font-size: 40px;
+      text-decoration: underline;
+      color: #F5BA3A;
+      text-decoration: none; }
+  main .chefs .chefss {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around; }
+    main .chefs .chefss .chefsss {
+      margin: 40px auto 40px auto;
+      border: 3px solid black; }
+      main .chefs .chefss .chefsss img {
+        width: 400px;
+        height: 550px;
+        border-bottom: 3px solid black; }
+      main .chefs .chefss .chefsss h3 {
+        color: #F5BA3A;
+        text-decoration: underline black; }
+      main .chefs .chefss .chefsss p {
+        color: black; }
+
+main .galeria .galeriaTitulo {
+  text-align: center;
+  margin: 50px; }
+  main .galeria .galeriaTitulo h2 {
+    font-size: 60px; }
+
+main .galeria .gridGaleria {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: 300px;
+  margin: 0; }
+  main .galeria .gridGaleria div img {
+    width: 400px;
+    object-fit: contain; }
+  main .galeria .gridGaleria .gridUno {
+    grid-row: span 2; }
+    main .galeria .gridGaleria .gridUno img {
+      height: 570px; }
+
+.contac {
+  background-color: black;
+  margin: 0;
+  height: 120vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .contac .contacto {
+    height: 80%;
+    width: 40%;
+    display: flex;
+    flex-flow: column wrap;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #F5BA3A; }
+    .contac .contacto .contactoTitulo {
+      border-bottom: 1px solid #F5BA3A; }
+      .contac .contacto .contactoTitulo h2 {
+        color: white;
+        font-size: 60px;
+        margin: 0 auto 20px auto; }
+      .contac .contacto .contactoTitulo h3 {
+        color: #F5BA3A;
+        margin: 0 auto 60px auto; }
+    .contac .contacto .contaccc h4 {
+      color: white;
+      margin: 20px auto 20px; }
+      .contac .contacto .contaccc h4 span {
+        color: #F5BA3A; }
+    .contac .contacto .contaccc input {
+      width: 400px;
+      border: #F5BA3A;
+      outline: none;
+      background-color: white;
+      border: 0;
+      border-radius: 5px;
+      border: 1px solid #F5BA3A; }
+    .contac .contacto .contactoMensaje h4 {
+      color: white;
+      margin: 20px auto 20px; }
+      .contac .contacto .contactoMensaje h4 span {
+        color: #F5BA3A; }
+    .contac .contacto .contactoMensaje input {
+      height: 200px;
+      border-radius: 5%; }
+
+.reservar {
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap; }
+  .reservar .reserva {
+    display: flex;
+    width: 100%;
+    height: 70%;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    text-align: center; }
+    .reservar .reserva div h2 {
+      color: white;
+      font-size: 60px; }
+    .reservar .reserva div h3 {
+      color: white;
+      margin: 0 auto 50px auto;
+      border-bottom: 1px solid #F5BA3A; }
+      .reservar .reserva div h3 span {
+        color: #F5BA3A; }
+    .reservar .reserva div div select {
+      width: 300px;
+      margin: 0 auto 10px auto;
+      display: block;
+      font-size: 16px;
+      font-family: 'Arial', sans-serif;
+      font-weight: 400;
+      color: #444;
+      line-height: 1.3;
+      padding: .4em 1.4em .3em .8em;
+      width: 400px;
+      max-width: 100%;
+      box-sizing: border-box;
+      border: 1px solid #aaa;
+      box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.03);
+      border-radius: .3em;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      appearance: none;
+      background-color: #fff;
+      background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E"), linear-gradient(to bottom, #ffffff 0%, #f7f7f7 100%);
+      background-repeat: no-repeat, repeat;
+      background-position: right .7em top 50%, 0 0;
+      background-size: .65em auto, 100%; }
+    .reservar .reserva div button {
+      color: black;
+      text-decoration: none;
+      border-radius: 0 0 25% 25%;
+      margin: 1px auto 0 auto;
+      padding: 10px 20px 10px 20px;
+      background-color: #F5BA3A;
+      font-size: 20px;
+      border: black; }
+      .reservar .reserva div button:hover {
+        transition: 0.7s;
+        color: #F15A29; }
+  .reservar .reservaAyuda {
+    height: 30vh;
+    display: flex;
+    flex-flow: column wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5BA3A;
+    text-align: center; }
+    .reservar .reservaAyuda div h2 {
+      font-size: 60px; }
+      .reservar .reservaAyuda div h2 span {
+        color: #F15A29; }
+    .reservar .reservaAyuda div h3 {
+      font-size: 30px;
+      margin: 0 auto 30px auto; }
+    .reservar .reservaAyuda div p {
+      font-size: 20px; }
+    .reservar .reservaAyuda div a {
+      color: #F5BA3A;
+      text-decoration: none;
+      border-radius: 2.3em;
+      padding: 10px 50px 10px 50px;
+      background-color: black;
+      font-size: 20px;
+      border: 1px solid #F5BA3A; }
+      .reservar .reservaAyuda div a:hover {
+        transition: 0.7s;
+        color: #F15A29; }
+
+@media screen and (max-width: 1400px) {
+  .pizza {
+    display: flex;
+    flex-flow: column;
+    height: 180vh; } }
+
+@media screen and (max-width: 1275px) {
+  .hero h1 {
+    font-size: 40px;
+    width: 80%; }
+  .hero h3 {
+    font-size: 40px;
+    width: 60%; }
+  .contacto {
+    height: 90%;
+    width: auto; }
+  .contac {
+    height: 140vh; } }
+
+@media screen and (max-width: 1365px) {
+  .servicios h2 {
+    width: 100%; }
+  .servicios {
+    flex-flow: column;
+    height: 150vh;
+    justify-content: center;
+    align-items: center; }
+  .serviciosDos {
+    flex-flow: column; }
+  .pizzasTitulo {
+    width: 60%; }
+  .pizzas {
+    height: 270vh; } }
+
+@media screen and (max-width: 1150px) {
+  .pizzas {
+    height: 350vh; }
+  .postresTitulo h2 {
+    width: 80%; } }
+
+@media screen and (max-width: 950px) {
+  .pizzas {
+    height: 400vh; }
+  .titu h1 {
+    width: 60%; }
+  .gridGaleria {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 300px;
+    margin: 0; } }
+
+@media screen and (max-width: 815px) {
+  .pizzaTi h2 {
+    font-size: 40px;
+    width: 80%; } }
+
+@media screen and (max-width: 740px) {
+  .hero h1 {
+    font-size: 30px;
+    width: 80%; }
+  .reservaAyuda {
+    height: 30vh; } }
+
+@media screen and (max-width: 600px) {
+  .header {
+    flex-flow: column;
+    height: 40vh; }
+  .navBar {
+    height: 35vh;
+    text-align: center; }
+  .navBar div {
+    display: flex;
+    flex-flow: column;
+    height: 35vh; }
+  .navBar a {
+    padding: 10px;
+    font-size: 20px; }
+  .foot {
+    border-top: 1px solid #F5BA3A;
+    background-color: black;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0; }
+  .pizzas {
+    height: 450vh; } }

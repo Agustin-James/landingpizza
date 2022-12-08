@@ -1,0 +1,84 @@
+main{
+
+    .titu{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+        background-image: url(../img/menu1.jpg);
+        text-align: center;
+        h1{
+            color: white ;
+            font-size: 80px;
+            background-color: black ;
+            width: 40%;
+            border-radius:  0 0 25% 25%;
+        }
+    }
+
+    .pizzas{
+        background-color: black;
+        height: 230vh;
+        border: solid 2px ;
+        .pizzasTitulo{
+            margin: 0 auto ;
+            text-align: center;
+            background-color: black;
+            width: 20%;
+            border-radius: 0 0 25% 25%;
+            h2{
+                font-size: 60px;
+                color: #F5BA3A;   
+                i{
+                    font-size: 40px;
+                    margin: 20px;
+                    color: #F5BA3A;       
+                }
+            }
+        }
+    
+        .pizzzz{
+            height: 100%;
+            .pizzz{
+            border: 1px solid #F5BA3A;
+            width: 60%;
+            margin: 10px auto;
+            display: flex;
+            flex-flow: row wrap;
+            background-color: black;
+            div{
+
+                img{
+                    width: 300px;
+                    height: 170px;
+                    margin: 0 20px 0 0;
+                }
+            }
+            div{
+                
+                h2{
+                    font-size: 40px;
+                    margin: 0 0 20px;
+                    color: white;
+                    &:hover{
+                        text-decoration: underline white;
+                    }
+                }
+                p{
+                    color: white;
+                }
+                span{
+                    color: #F5BA3A;
+                }
+            }
+         }
+    }}
+    
+
+
+
+
+
+
+}

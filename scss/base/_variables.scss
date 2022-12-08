@@ -1,0 +1,8 @@
+@mixin flex ($flex, $direcc, $just, $align){
+    display: $flex;
+    flex-flow:$direcc wrap ;
+    justify-content: $just;
+    align-items: $align;
+}
+
+$color-principal: black;

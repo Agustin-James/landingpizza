@@ -1,0 +1,75 @@
+
+    .contac{
+        background-color: black;
+        margin: 0;
+        height: 120vh;
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+
+        .contacto{
+            height: 80%;
+            width: 40%;
+            display: flex;
+            flex-flow: column wrap;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #F5BA3A;
+            .contactoTitulo{
+                border-bottom: 1px solid #F5BA3A ;
+                h2{
+                    color: white;
+                    font-size: 60px;
+                    margin: 0 auto 20px auto;
+                }
+                h3{
+                    color: #F5BA3A;
+                    margin: 0 auto 60px auto;
+                }
+            }
+            .contaccc{
+
+                h4{
+                    color: white;
+                    margin: 20px auto 20px;
+                    span{
+                        color: #F5BA3A;
+                    }
+                }
+                
+                input{
+                    width: 400px;
+                    border: #F5BA3A;
+                    outline: none;
+                    background-color: white;
+                    border: 0;
+                    border-radius: 5px;
+                    border: 1px solid #F5BA3A;
+                }
+        
+            }
+            .contactoMensaje{
+                h4{
+                    color: white;
+                    margin: 20px auto 20px;
+                    span{
+                        color: #F5BA3A;
+                    }
+                }
+
+                input{
+                    height: 200px;
+                    border-radius: 5%;
+                }
+
+            }
+
+
+        }
+    }
+
+

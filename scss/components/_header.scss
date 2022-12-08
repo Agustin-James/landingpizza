@@ -1,0 +1,101 @@
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: black;
+    height: 20vh;
+    justify-content: space-around;
+    align-items: center;
+    .headerUno{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        div{
+            
+            i{
+                color: white;
+                font-size: 30px;
+                margin: 10px;
+                align-items: center;
+                text-align: center;
+                padding: 0 0 50px 0;
+                width: 30px;
+                height: 20px;
+                color: #F5BA3A;
+            }
+        }
+        div {
+                p{
+                    color: white;
+                    font-size: 20px;
+                }
+                p{
+                    color: white;
+                    font-size: 20px;
+                    span{
+                        color: #F5BA3A;
+                    }
+                }
+                
+                
+            }
+    }
+
+    .headerImg{
+
+        a{
+
+            img{
+                width: 150px;
+                height: 150px;
+                border: solid 1px #F5BA3A;
+            }
+        }
+    }
+ 
+    .headerDos{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        i{
+            color: white;
+                font-size: 30px;
+                margin: 10px;
+                align-items: center;
+                text-align: center;
+                padding: 0 0 50px 0;
+                width: 30px;
+                height: 20px;
+                color: #F5BA3A;
+        }
+        p{
+            color: white;
+            font-size: 20px;
+        }
+    }
+}
+
+.navBar {
+    background-color: #F5BA3A;
+    height: 5vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    div{
+        a{
+            color:#F5BA3A ;
+            text-decoration: none;
+            border-radius: 2.3em;
+            margin: 100px auto;
+            padding: 10px 50px 10px 50px;
+            background-color:black ;
+            font-size: 20px;
+            border: 1px solid #F5BA3A;
+            &:hover{
+                color: aliceblue;
+                transition: 0.5s;
+            }
+        }
+    }
+}
