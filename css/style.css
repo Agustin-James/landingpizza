@@ -73,11 +73,10 @@
     font-size: 17px;
 }
 
-.navBar a:hover{
+.navBar a:hover {
+    
     color: aliceblue;
     transition: 0.5s;
-    
-    
 }
 
  /* HERO */
@@ -961,3 +960,4 @@ object-fit: contain;
 
     }
 }
+
