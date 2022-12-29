@@ -1,11 +1,11 @@
 .reservar{
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-flow: column wrap;
     .reserva{
         display: flex;
         width: 100%;
-        height: 70%;
+        height: auto;
         flex-flow: column wrap;
         justify-content: center;
         align-items: center;
@@ -56,9 +56,7 @@
                     background-repeat: no-repeat, repeat;
                     background-position: right .7em top 50%, 0 0;
                     background-size: .65em auto, 100%;
-                    option{
 
-                    }
                 }
             }
         }
@@ -73,6 +71,7 @@
                 background-color: #F5BA3A;
                 font-size: 20px;
                 border: black;
+                margin: 10px;
                 &:hover{
                     transition: 0.7s;
                     color: #F15A29;
@@ -83,7 +82,7 @@
     }
 
     .reservaAyuda{
-        height: 30vh;
+        height: 40vh;
         display: flex;
         flex-flow: column wrap;
         flex-flow: column;

@@ -12,14 +12,14 @@ main{
             color: white ;
             font-size: 80px;
             background-color: black ;
-            width: 40%;
+            width: auto;
             border-radius:  0 0 25% 25%;
         }
     }
 
     .pizzas{
         background-color: black;
-        height: 230vh;
+        height: auto;
         border: solid 2px ;
         .pizzasTitulo{
             margin: 0 auto ;

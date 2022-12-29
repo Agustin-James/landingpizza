@@ -124,7 +124,7 @@ main .hero {
     font-size: 60px;
     color: #F5BA3A;
     background-color: black;
-    width: 55%;
+    width: auto;
     height: 100px;
     margin: 0 auto;
     padding: 10px 0 0 0;
@@ -196,7 +196,7 @@ main .servicios {
   height: 70vh; }
   main .servicios .serviciosUno h2 {
     font-size: 40px;
-    width: 20%;
+    width: 100%;
     height: 60px;
     margin: 0 auto 40px auto;
     background-color: black;
@@ -238,12 +238,12 @@ main .titu {
     color: white;
     font-size: 80px;
     background-color: black;
-    width: 40%;
+    width: auto;
     border-radius: 0 0 25% 25%; }
 
 main .pizzas {
   background-color: black;
-  height: 230vh;
+  height: auto;
   border: solid 2px; }
   main .pizzas .pizzasTitulo {
     margin: 0 auto;
@@ -422,13 +422,13 @@ main .galeria .gridGaleria {
       border-radius: 5%; }
 
 .reservar {
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-flow: column wrap; }
   .reservar .reserva {
     display: flex;
     width: 100%;
-    height: 70%;
+    height: auto;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
@@ -475,12 +475,13 @@ main .galeria .gridGaleria {
       padding: 10px 20px 10px 20px;
       background-color: #F5BA3A;
       font-size: 20px;
-      border: black; }
+      border: black;
+      margin: 10px; }
       .reservar .reserva div button:hover {
         transition: 0.7s;
         color: #F15A29; }
   .reservar .reservaAyuda {
-    height: 30vh;
+    height: 40vh;
     display: flex;
     flex-flow: column wrap;
     flex-flow: column;
@@ -509,90 +510,256 @@ main .galeria .gridGaleria {
         transition: 0.7s;
         color: #F15A29; }
 
-@media screen and (max-width: 1400px) {
-  .pizza {
-    display: flex;
-    flex-flow: column;
-    height: 180vh; } }
-
-@media screen and (max-width: 1275px) {
-  .hero h1 {
-    font-size: 40px;
-    width: 80%; }
-  .hero h3 {
-    font-size: 40px;
-    width: 60%; }
-  .contacto {
-    height: 90%;
-    width: auto; }
-  .contac {
-    height: 140vh; } }
-
-@media screen and (max-width: 1365px) {
-  .servicios h2 {
-    width: 100%; }
-  .servicios {
-    flex-flow: column;
-    height: 150vh;
-    justify-content: center;
-    align-items: center; }
-  .serviciosDos {
-    flex-flow: column; }
-  .pizzasTitulo {
-    width: 60%; }
-  .pizzas {
-    height: 270vh; } }
-
-@media screen and (max-width: 1150px) {
-  .pizzas {
-    height: 350vh; }
-  .postresTitulo h2 {
-    width: 80%; } }
-
-@media screen and (max-width: 950px) {
-  .pizzas {
-    height: 400vh; }
-  .titu h1 {
-    width: 60%; }
-  .gridGaleria {
+@media screen and (max-width: 1600px) {
+  main .galeria .galeriaTitulo {
+    text-align: center;
+    margin: 50px; }
+    main .galeria .galeriaTitulo h2 {
+      font-size: 60px; }
+  main .galeria .gridGaleria {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 300px;
-    margin: 0; } }
+    margin: 0; }
+    main .galeria .gridGaleria div img {
+      width: 300px;
+      object-fit: contain; }
+    main .galeria .gridGaleria .gridUno {
+      grid-row: span auto; }
+      main .galeria .gridGaleria .gridUno img {
+        height: 570px; } }
 
-@media screen and (max-width: 815px) {
-  .pizzaTi h2 {
-    font-size: 40px;
-    width: 80%; } }
+@media screen and (max-width: 1400px) {
+  main .servicios .serviciosUno h2 {
+    width: 100%; }
+  main .servicios .serviciosDos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly; }
+    main .servicios .serviciosDos div {
+      width: 30%;
+      height: 100%;
+      padding: 50px 0 0 0;
+      border: 5px solid black;
+      border-radius: 0 0 25% 25%; }
+      main .servicios .serviciosDos div:hover {
+        border-radius: 0 0 25% 25%;
+        text-decoration: black #F5BA3A; }
+      main .servicios .serviciosDos div h3 {
+        font-size: 30px; }
+      main .servicios .serviciosDos div img {
+        width: 200px; } }
 
-@media screen and (max-width: 740px) {
-  .hero h1 {
-    font-size: 30px;
-    width: 80%; }
-  .reservaAyuda {
-    height: 30vh; } }
+@media screen and (max-width: 1300px) {
+  main .hero div h1 {
+    width: auto; }
+  main .hero div h3 {
+    width: 50%; } }
 
-@media screen and (max-width: 600px) {
-  .header {
+@media screen and (max-width: 1000px) {
+  .contac .contacto {
+    height: 80%;
+    width: 70%; }
+  main .galeria .galeriaTitulo {
+    text-align: center;
+    margin: 50px; }
+    main .galeria .galeriaTitulo h2 {
+      font-size: 60px; }
+  main .galeria .gridGaleria {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 300px;
+    margin: 0; }
+    main .galeria .gridGaleria div img {
+      width: 300px;
+      object-fit: contain; }
+    main .galeria .gridGaleria .gridUno {
+      grid-row: span auto; }
+      main .galeria .gridGaleria .gridUno img {
+        height: 570px; } }
+
+@media screen and (max-width: 900px) {
+  header .header {
     flex-flow: column;
     height: 40vh; }
-  .navBar {
-    height: 35vh;
+  header .navBar {
+    height: auto;
     text-align: center; }
-  .navBar div {
+    header .navBar div {
+      display: flex;
+      flex-flow: column;
+      height: 38vh; }
+      header .navBar div a {
+        margin: 5px; }
+  main .hero {
+    width: 100%; }
+    main .hero div h1 {
+      font-size: 40px; }
+    main .hero div h3 {
+      font-size: 40px;
+      width: 50%; }
+  main .servicios .serviciosUno h2 {
+    width: 100%; }
+  main .servicios .serviciosDos {
     display: flex;
-    flex-flow: column;
-    height: 35vh; }
-  .navBar a {
-    padding: 10px;
-    font-size: 20px; }
-  .foot {
-    border-top: 1px solid #F5BA3A;
-    background-color: black;
+    flex-flow: row wrap;
+    justify-content: space-evenly; }
+    main .servicios .serviciosDos div {
+      width: 30%;
+      height: 100%;
+      padding: 50px 0 0 0;
+      border: 5px solid black;
+      border-radius: 0 0 25% 25%; }
+      main .servicios .serviciosDos div:hover {
+        border-radius: 0 0 25% 25%;
+        text-decoration: black #F5BA3A; }
+      main .servicios .serviciosDos div h3 {
+        font-size: 25px; }
+      main .servicios .serviciosDos div img {
+        width: 150px; } }
+
+@media screen and (max-width: 600px) {
+  footer {
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap; }
+    footer .foot {
+      border-top: 1px solid #F5BA3A;
+      background-color: black;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-around;
+      width: 100%;
+      margin: 0; }
+      footer .foot div h2 {
+        color: #F5BA3A;
+        margin: 20px auto 20px; }
+      footer .foot div h3 {
+        color: white;
+        font-size: 20px; }
+      footer .foot div img {
+        width: 200px; }
+      footer .foot div h2 {
+        color: #F5BA3A;
+        margin: 20px auto 20px; }
+      footer .foot div a {
+        color: white;
+        font-size: 30px;
+        padding: 15px; }
+        footer .foot div a:hover {
+          color: #F5BA3A; }
+    footer .footr {
+      background-color: #F5BA3A;
+      height: 3vh;
+      margin: 0;
+      width: 100%; }
+      footer .footr h3 {
+        font-size: 20px; }
+  main .hero {
+    width: 100%; }
+    main .hero div h1 {
+      font-size: 40px;
+      height: 120px; }
+    main .hero div h3 {
+      font-size: 40px;
+      width: 60%;
+      height: 120px; }
+  main .servicios {
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-around;
-    width: 100%;
-    margin: 0; }
-  .pizzas {
-    height: 450vh; } }
+    justify-content: center;
+    height: auto; }
+    main .servicios .serviciosUno {
+      display: flex;
+      flex-flow: column wrap; }
+      main .servicios .serviciosUno h2 {
+        width: 100%; }
+    main .servicios .serviciosDos {
+      display: flex;
+      flex-flow: column;
+      justify-content: space-evenly;
+      align-items: center; }
+      main .servicios .serviciosDos div {
+        width: 60%;
+        margin: 10px; }
+        main .servicios .serviciosDos div h3 {
+          font-size: 20px; }
+        main .servicios .serviciosDos div img {
+          width: 150px; }
+  main .pizzas {
+    text-align: center; }
+    main .pizzas .pizzasTitulo {
+      margin: 0 auto; }
+      main .pizzas .pizzasTitulo h2 {
+        font-size: 40px;
+        color: #F5BA3A; }
+        main .pizzas .pizzasTitulo h2 i {
+          font-size: 30px;
+          margin: 20px;
+          color: #F5BA3A; }
+    main .pizzas .pizzzz {
+      height: 100%; }
+      main .pizzas .pizzzz .pizzz {
+        border: 1px solid #F5BA3A;
+        width: 60%;
+        margin: 10px auto;
+        display: flex;
+        flex-flow: row wrap;
+        background-color: black; }
+        main .pizzas .pizzzz .pizzz div img {
+          width: 200px;
+          height: 170px;
+          margin: 0 20px 0 0; }
+        main .pizzas .pizzzz .pizzz div h2 {
+          font-size: 30px;
+          margin: 0 0 20px;
+          color: white; }
+          main .pizzas .pizzzz .pizzz div h2:hover {
+            text-decoration: underline white; }
+        main .pizzas .pizzzz .pizzz div p {
+          color: white; }
+        main .pizzas .pizzzz .pizzz div span {
+          color: #F5BA3A; }
+  .contac .contacto {
+    height: 80%;
+    width: 100%; }
+  main .galeria {
+    margin: 0 auto; }
+    main .galeria .galeriaTitulo {
+      text-align: center;
+      margin: 50px; }
+      main .galeria .galeriaTitulo h2 {
+        font-size: 50px; }
+    main .galeria .gridGaleria {
+      display: flex;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-auto-rows: 300px;
+      margin: 0 auto; }
+      main .galeria .gridGaleria div img {
+        width: 300px;
+        object-fit: contain; }
+      main .galeria .gridGaleria .gridUno {
+        grid-row: span auto; }
+        main .galeria .gridGaleria .gridUno img {
+          height: 570px; }
+  main .nosotrosPrimera {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    margin: 50px auto; }
+    main .nosotrosPrimera div img {
+      height: 600px;
+      margin: 0 50px auto; }
+    main .nosotrosPrimera .nosotrosTxt {
+      margin: 0  auto;
+      width: 40%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center; }
+      main .nosotrosPrimera .nosotrosTxt h3 {
+        font-size: 30px; }
+      main .nosotrosPrimera .nosotrosTxt p {
+        text-align: center; } }
