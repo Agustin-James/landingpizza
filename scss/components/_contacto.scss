@@ -4,20 +4,12 @@
         margin: 0;
         height: 120vh;
         width: 100%;
-        display: flex;
-        flex-direction:column;
-        justify-content: center;
-        align-items: center;
+        @include flex (flex, column, center, center);
 
         .contacto{
-            height: 80%;
+            height: auto;
             width: 40%;
-            display: flex;
-            flex-flow: column wrap;
-            flex-direction: column;
-            text-align: center;
-            align-items: center;
-            justify-content: center;
+            @include flex (flex, column, center, center);
             border: 1px solid #F5BA3A;
             .contactoTitulo{
                 border-bottom: 1px solid #F5BA3A ;
