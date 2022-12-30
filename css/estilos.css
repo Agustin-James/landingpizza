@@ -292,14 +292,15 @@ main .nosotrosTitulo {
   text-align: center; }
   main .nosotrosTitulo div h2 {
     font-size: 70px;
+    padding: 20px;
     margin: 0 auto 20px auto;
     background-color: black;
-    width: 130%;
+    width: 100%;
     color: #F5BA3A;
     border: 1px solid #F5BA3A; }
   main .nosotrosTitulo div h3 {
     background-color: black;
-    width: 130%;
+    width: 100%;
     color: #F5BA3A;
     border: 1px solid #F5BA3A; }
 
